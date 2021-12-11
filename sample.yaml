@@ -31,6 +31,6 @@ spec:
     spec:
       containers:
         - name: httpd-container-nautilus
-          image: httpd:latest
+          image: $1:$2
           ports:
             - containerPort: 80
